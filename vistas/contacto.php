@@ -26,6 +26,9 @@
           <a class="selector" id="select" href="contacto.php">CONTACTO</a>
         </ul>
       </nav>
+      <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div>  
       
     </div>
   </header>
@@ -43,28 +46,27 @@
       <div class="container">
         <div class="row">
             <div class="figura">
-              <figure class="imagen">
-                
-              </figure>
+              <figure class="imagen"></figure>
             </div>
             <div class="formulario" >
               <div class="contenform">
-                <h4 style="color: #fff;">Queremos ayudarte a encontrar tu seguro personalizado.</h4>
+                <h4 class="tit-qaes" style="color: #fff;">Queremos ayudarte a encontrar tu seguro personalizado.</h4>
                 <div class="col-md-12 formu" style="margin-top: 3%;">
-              <form action="form.php" class="contact-form" method="post">
+              <form action="form.php" class="contact-form" method="post" onSubmit="return false">
                   <div class="form-group">
-                    <input type="text" class="form-control" id="name" name="nm" placeholder="Nombre Completo" required="" >
+                    <input type="text" class="form-control" id="txtNOMBRE" name="nm" placeholder="Nombre Completo" required="" >
                   </div>
                   <div class="form-group form_left">
-                    <input type="email" class="form-control" id="email" name="em" placeholder="Correo" required="">
+                    <input type="email" class="form-control" id="txtCORREO" name="em" placeholder="Correo" required="">
                   </div>
                   <div class="form-group">
-                     <input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Teléfono" required="">
+                     <input type="text" class="form-control" id="txtTELEFONO" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Teléfono" required="">
                   </div>
-                  <div class="form-group">
-                  <textarea class="form-control textarea-contact" rows="2" id="comment" name="FB" placeholder="Escribe lo de necesites" required=""></textarea>
+                  <div class="form-group cont-btnsend">
+                  <textarea class="form-control textarea-contact" rows="2" id="txtCOMENTARIO" name="FB" placeholder="Escribe lo de necesites" required=""></textarea><br>
+                  <div id="_AJAX_PRE_"></div>
                   <br>
-                    <button class="btn2 btn-default btn-send"> <span class="far fa-share-square"></span> Enviar </button>
+                    <button class="btn2 btn-default btn-send" onclick="sendCORREO()"> <span class="far fa-share-square"></span> Enviar </button>
                   </div>
               </form>
             </div>
@@ -80,53 +82,53 @@
 
     <div class="container" style="padding:5% 0%;">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
             <div class="box">
                 <div class="box-icon">
                     <span class="fas fa-map-marker-alt fa-4x"></span>
                 </div>
                 <div class="info">
-                    <h4 class="text-center">Dirección</h4>
-                    <p>Av. Rocio #359 Col. La herradura, Tuxtla Gutierrez, Chiapas. C.P 29038</p>
+                    <h4 class="text-center tit-dtch">Dirección</h4>
+                    <p class="subtit-d">Av. Rocio #359 Col. La herradura, Tuxtla Gutierrez, Chiapas. C.P 29038</p>
                     <!-- <a href="" class="btn">Link</a> -->
                 </div>
             </div>
         </div>
         
-        <div class="col-md-3">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
             <div class="box">
                 <div class="box-icon">
                     <span class="fas fa-phone fa-4x"></span>
                 </div>
                 <div class="info">
-                    <h4 class="text-center">Teléfono</h4>
-                    <p>PENDIENTE</p>
+                    <h4 class="text-center tit-dtch">Teléfono</h4>
+                    <p class="subtit-tch">PENDIENTE</p>
                     <!-- <a href="" class="btn">Link</a> -->
                 </div>
             </div>
         </div>
-
-        <div class="col-md-3">
+        <div class="clearfix visible-sm visible-md"></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
             <div class="box">
                 <div class="box-icon">
                     <span class="fas fa-envelope fa-4x"></span>
                 </div>
                 <div class="info">
-                    <h4 class="text-center">Correo</h4>
-                    <p>info@segurosgumer.com</p>
+                    <h4 class="text-center tit-dtch">Correo</h4>
+                    <p class="subtit-tch">info@segurosgumer.com</p>
                     <!-- <a href="" class="btn">Link</a> -->
                 </div>
             </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
             <div class="box">
                 <div class="box-icon">
                     <span class="fas fa-clock fa-4x"></span>
                 </div>
                 <div class="info">
-                    <h4 class="text-center">Horario</h4>
-                    <p>Lunes a Viernes de 9am a 6pm</p>
+                    <h4 class="text-center tit-dtch">Horario</h4>
+                    <p class="subtit-tch">Lunes a Viernes de 9am a 6pm</p>
                     <!-- <a href="" class="btn">Link</a> -->
                 </div>
             </div>

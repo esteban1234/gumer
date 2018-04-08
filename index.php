@@ -25,7 +25,9 @@
 					<a class="selector" href="vistas/contacto.php">CONTACTO</a>
 				</ul>
 			</nav>
-			
+       <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div>			
 		</div>
 	</header>
 
@@ -46,7 +48,7 @@
 
           	Nuestros Seguros de Vida están orientados a proteger la economía familiar  y a garantizar su bienestar a lo largo de los años. Nuestros Seguros han sido diseñados pensando en salvaguardar tu futuro y el de tus seres queridos a través de productos que te ayudarán a ahorrar, a afrontar alguna muerte inesperada, a poder costear la educación de tus hijos, a luchar contra una enfermedad, a disfrutar de tu retiro, etc. </p>
 
-          	<div class="boton">
+          	<div class="boton oculta">
            <a href="vistas/contacto.php" class="btn btn-outlined btn-theme btn-lg" data-wow-delay="0.7s">HAS UNA CITA CON UN ASESOR</a>
         </div>
           </div>
@@ -58,13 +60,11 @@
       <div class="container">
         <div class="row">
           	<div class="figura">
-          		<figure class="imagen">
-          			
-          		</figure>
+          		<figure class="imagen"></figure>
           	</div>
           	<div class="formulario" >
           		<div class="contenform">
-          			<h4 style="color: #fff;">Queremos ayudarte a encontrar tu seguro personalizado.</h4>
+          			<h4 class="tit-qaes" style="color: #fff;">Queremos ayudarte a encontrar tu seguro personalizado.</h4>
           			<div class="col-md-12 formu" style="margin-top: 3%;">
     					<form action="form.php" class="contact-form" method="post">
 					        <div class="form-group">
@@ -76,7 +76,7 @@
 					      	<div class="form-group">
 					           <input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Teléfono" required="">
 					      	</div>
-					        <div class="form-group">
+					        <div class="form-group cont-btnsend">
 					        <textarea class="form-control textarea-contact" rows="2" id="comment" name="FB" placeholder="Escribe lo de necesites" required=""></textarea>
 					        <br>
 				      	    <button class="btn2 btn-default btn-send"> <span class="far fa-share-square"></span> Enviar </button>

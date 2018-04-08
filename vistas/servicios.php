@@ -25,7 +25,9 @@
           <a class="selector" href="contacto.php">CONTACTO</a>
         </ul>
       </nav>
-      
+      <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div>  
     </div>
   </header>
 	
@@ -38,12 +40,12 @@
   </div>
 </div>
 
-<div class="section" style="padding: 5% 0%;">
+<div class="section cont-ser" style="padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <h1>Nuestros Seguros</h1> <br>
+          <h1 class="tit-ns">Nuestros Seguros</h1> <br>
           <p class="texts">Cuando una familia o una empresa nos necesitan siempre es grave, urgente y complejo. En GUMER entendemos que la vida y el negocio de nuestros clientes están en juego, nuestra vocación es proteger y nos sentimos afortunados de poder estar para apoyarlos.</p> <br><br>
-          <div class="col-md-4 cuadros">
+          <div class="col-sm-4 col-md-4 cuadros">
             <div class="iconos">
               <i class="fas fa-car fa-5x"></i>
             </div>
@@ -52,7 +54,7 @@
               <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
               <br>Ut enim ad minim veniam, quis nostrud</p> -->
           </div>
-          <div class="col-md-4 cuadros">
+          <div class="col-sm-4 col-md-4 cuadros">
             <div class="iconos">
               <i class="fas fa-user-md fa-5x"></i>
             </div>
@@ -61,7 +63,7 @@
               <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
               <br>Ut enim ad minim veniam, quis nostrud</p> -->
           </div>
-          <div class="col-md-4 cuadros">
+          <div class="col-sm-4 col-md-4 cuadros">
             <div class="iconos">
               <i class="fas fa-building fa-5x"></i>
             </div>
@@ -70,9 +72,9 @@
               <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
               <br>Ut enim ad minim veniam, quis nostrud</p> -->
           </div>
-        </div> <br><br>
+        </div> <br class="delete-br"><br class="delete-br">
         <div class="row">
-          <div class="col-md-4 cuadros">
+          <div class="col-sm-4 col-md-4 cuadros">
             <div class="iconos">
               <i class="fas fa-heartbeat fa-5x"></i>
             </div>
@@ -81,7 +83,7 @@
               <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
               <br>Ut enim ad minim veniam, quis nostrud</p> -->
           </div>
-          <div class="col-md-4 cuadros">
+          <div class="col-sm-4 col-md-4 cuadros">
             <div class="iconos">
               <i class="fab fa-accessible-icon fa-5x"></i>
             </div>
@@ -90,7 +92,7 @@
               <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
               <br>Ut enim ad minim veniam, quis nostrud</p> -->
           </div>
-          <div class="col-md-4 cuadros">
+          <div class="col-sm-4 col-md-4 cuadros">
             <div class="iconos">
               <i class="fab fa-twitter fa-5x"></i>
             </div>
@@ -99,10 +101,10 @@
               <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
               <br>Ut enim ad minim veniam, quis nostrud</p> -->
           </div>
-        </div> <br><br>
+        </div> <br class="delete-br"><br class="delete-br">
 
         <div class="row">
-          <div class="col-md-4 col-md-offset-4 cuadros">
+          <div class="col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 cuadros">
             <div class="iconos">
               <i class="fas fa-home fa-5x"></i>
             </div>

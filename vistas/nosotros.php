@@ -25,6 +25,9 @@
           <a class="selector" href="contacto.php">CONTACTO</a>
         </ul>
       </nav>
+      <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div>  
       
     </div>
   </header>
@@ -41,19 +44,17 @@
 <div class="section" style="padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="../img/nosotros.jpg"
-            class="img-responsive">
+          <div class="col-sm-6 col-md-6 cont-imgnos">
+            <img src="../img/nosotros.jpg" class="img-responsive">
           </div>
-          <div class="col-md-6">
-            <!-- <h1>A title</h1>
-            <h3>A subtitle</h3> -->
+          <div class="col-sm-6 col-md-6">
             <p class="texto2 ">
-Gummer Seguros, es la compañía con años en el mercado mexicano y con capital 100% nacional. Siempre teniendo como prioridad proteger el patrimonio de las familias y empresas mexicanas. <br><br>
+              Gummer Seguros, es la compañía con años en el mercado mexicano y con capital 100% nacional. Siempre teniendo como prioridad proteger el patrimonio de las familias y empresas mexicanas. <br><br>
 
-En un esfuerzo arduo y constante hemos tenido grandes logros y metas alcanzadas, pero es necesaria tu integración y colaboración para fortalecerla hasta lograr el reconocimiento y valor digno de nuestra profesión. <br><br>
+              En un esfuerzo arduo y constante hemos tenido grandes logros y metas alcanzadas, pero es necesaria tu integración y colaboración para fortalecerla hasta lograr el reconocimiento y valor digno de nuestra profesión. <br><br>
 
-Con compromiso absoluto con nuestros clientes, siempre brindandoles calidad.</p>
+              Con compromiso absoluto con nuestros clientes, siempre brindandoles calidad.
+            </p>
           </div>
         </div>
       </div>
@@ -62,35 +63,35 @@ Con compromiso absoluto con nuestros clientes, siempre brindandoles calidad.</p>
     <div class="section" style="padding: 5% 0%;background: #eceff1;">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 cuadro scuadro" style="padding: 5% 2%;">
+          <div class="col-sm-4 col-md-4 cuadro scuadro" style="padding: 5% 2%;">
             <div class="iconos">
               <span class="fa-stack fa-5x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-check fa-stack-1x fa-inverse"></i>
               </span>
             </div>
-            <h2>Misión</h2>
+            <h2 class="tit-mvv">Misión</h2>
             <p>Brindar seguridad , tranquilidad y el mejor servicio a las familias y empresas en México, por medio de productos y servicios de seguros, generando valor para todas las partes involucradas.</p>
           </div>
-          <div class="col-md-4 cuadro" style="padding: 5% 2%;"">
+          <div class="col-sm-6 col-md-4 cuadro" style="padding: 5% 2%;"">
               <div class="iconos">
                 <span class="fa-stack fa-5x">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
                 </span>
               </div>
-            <h2>Visión</h2>
+            <h2 class="tit-mvv">Visión</h2>
             <p>Ser la primera opción para el cliente en la compra de seguro, manteniendo un alto reconocimiento por la especialización y profesionalismo de nuestros colaboradores. Nuestra meta es asegurar la protección del patrimonio de nuestros clientes otorgando siempre soluciones confiables, un trato personalizado y una red de proveedores de excelente calidad.</p>
           </div>
-          <div class="col-md-4 cuadro " style="padding: 5% 2%;"">
+          <div class="col-sm-2 col-md-4 cuadro " style="padding: 5% 2%;"">
             <div class="iconos">
                 <span class="fa-stack fa-5x">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i>
                 </span>
               </div>
-            <h2>Valores</h2>
-            <p>
+            <h2 class="tit-mvv">Valores</h2>
+            <p class="subtit-mvv">
               Espíritu de Servicio <br>
               Justicia<br>
               Responsabilidad<br>
